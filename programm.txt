@@ -13,4 +13,15 @@ cout<<"Enter text for codding: ";
 std::getline(std::cin, mas);
 
 cout<<endl<< "SHIFT_CIPHER"<<endl;
+if (mode == "Coder")
+{
+       result=box.encryption(mas);
+	   cout<<"Coder: " <<result<<endl;
+}
+if (mode == "Decoder")
+{
+       result=box.decryption(mas);
+	   cout<<"Decoder: " <<result<<endl;
+}
+return 0;
 }
