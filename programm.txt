@@ -1,11 +1,13 @@
-#include "module.h"
+#include "cezar.h"
 
 int main(int argc, char *argv[])
 {
 string mas;
 string result;
 string mode = argv[1];
-int sdvig = atoi(argv[2]);
+cout<<"Enter shift value: ";
+int sdvig;
+cin>>sdvig;
 
 CODE box(sdvig);
 
