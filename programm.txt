@@ -8,10 +8,16 @@ string mode = argv[1];
 cout<<"Enter shift value: ";
 int sdvig;
 cin>>sdvig;
+while (!((-26<=sdvig)&&(sdvig<=26)) )
+{
+       cout<<"ERROR: Enter shift value must be between -26 and 26. Enter it again: "endl;
+	   cin>>sdvig;
+}
 
 CODE box(sdvig);
 
 cout<<"Enter text for codding: ";
+cin.get();
 std::getline(std::cin, mas);
 
 cout<<endl<< "SHIFT_CIPHER"<<endl;
