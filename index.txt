@@ -1,4 +1,16 @@
 #include "module h."
 int main(int argc, char *argv[])
 {
+string mass;
+string result;
+string mode=argv[1];
+int sdvig=atoi(argv[2]);
+
+CODE box(sdvig);
+
+cout<<"Enter text for codding: ";
+std::getline(std::cin, mas);
+
+cout<<endl<<"SHIFT_CIPHER"<<endl;
+
 }
